@@ -22,9 +22,18 @@ public class Solution
         //var pivot = new PivotIndex();        
         //Console.WriteLine(pivot.PivotIndexFind(pivotArray));
 
-        var palindromNum = new PalindromeNumber();        
-        var isPalindrom = palindromNum.IsPalindrome(2246422);
-        Console.WriteLine("Hello, World!");
+        //var palindromNum = new PalindromeNumber();        
+        //var isPalindrom = palindromNum.IsPalindrome(2246422);
+        //Console.WriteLine("Hello, World!");
+
+        //var romInt = new RomanToInteger();        
+        //var number = romInt.RomanToInt("LVIII");
+        
+        string [] words = { "ptshjk", "ptswkln", "ptdln" };
+        var prefix = new LongestCommonPrefix();        
+        prefix.LongestCommonPrefixFind(words);
+
+
 
         //Console.WriteLine("Hello, World!");
     }
