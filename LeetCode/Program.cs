@@ -29,10 +29,14 @@ public class Solution
         //var romInt = new RomanToInteger();        
         //var number = romInt.RomanToInt("LVIII");
         
-        string [] words = { "ptshjk", "ptswkln", "ptdln" };
-        var prefix = new LongestCommonPrefix();        
-        prefix.LongestCommonPrefixFind(words);
+        //string [] words = { "ptshjk", "ptswkln", "ptdln" };
+        //var prefix = new LongestCommonPrefix();        
+        //prefix.LongestCommonPrefixFind(words);
 
+
+        string words = "((){}[])";
+        var str = new ValidParentheses();
+        bool res = str.IsValid(words);
 
 
         //Console.WriteLine("Hello, World!");
