@@ -28,15 +28,19 @@ public class Solution
 
         //var romInt = new RomanToInteger();        
         //var number = romInt.RomanToInt("LVIII");
-        
+
         //string [] words = { "ptshjk", "ptswkln", "ptdln" };
         //var prefix = new LongestCommonPrefix();        
         //prefix.LongestCommonPrefixFind(words);
 
 
-        string words = "((){}[])";
-        var str = new ValidParentheses();
-        bool res = str.IsValid(words);
+        //string words = "((){}[])";
+        //var str = new ValidParentheses();
+        //bool res = str.IsValid(words);
+
+        int[] SortesArray = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+        var result = new RemoveDuplicatesSortedArray();
+        var num = result.RemoveDuplicates(SortesArray);
 
 
         //Console.WriteLine("Hello, World!");
