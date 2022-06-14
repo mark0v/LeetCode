@@ -38,10 +38,14 @@ public class Solution
         //var str = new ValidParentheses();
         //bool res = str.IsValid(words);
 
-        int[] SortesArray = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-        var result = new RemoveDuplicatesSortedArray();
-        var num = result.RemoveDuplicates(SortesArray);
+        //int[] SortesArray = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+        //var result = new RemoveDuplicatesSortedArray();
+        //var num = result.RemoveDuplicates(SortesArray);
 
+        int[] nums = { 0, 1, 1, 1, 2, 3, 1 };
+        var result = new RemoveElement();
+
+        int k = result.FindAndRemove(nums, 1);
 
         //Console.WriteLine("Hello, World!");
     }
