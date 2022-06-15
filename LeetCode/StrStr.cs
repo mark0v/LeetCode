@@ -55,4 +55,9 @@ namespace LeetCode
             return lps;
         }
     }
+
+    //string haystack = "gdadjyuie";
+    //string needle = "djy";
+    //var str = new StrStr();
+    //var result = str.StrOfStr(haystack, needle);
 }

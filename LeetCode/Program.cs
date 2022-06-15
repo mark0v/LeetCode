@@ -10,10 +10,9 @@ public class Solution
     public static void Main()
     {
 
-        string haystack = "gdadjyuie";
-        string needle = "djy";
-        var str = new StrStr();
-        var result = str.StrOfStr(haystack, needle);
+        string[] words = { "a", "b", "ba", "bca", "bda", "bdca" };
+        var res = new LongestStrChain();
+        var output = res.LongestStrChainFind(words);
 
 
         //Console.WriteLine("Hello, World!");
