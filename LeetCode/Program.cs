@@ -1,9 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using LeetCode;
+using System.Collections.Generic;
+using static LeetCode.TwoLists;
 
 public class Solution
-{    
+{
 
     public static void Main()
     {
@@ -42,10 +44,30 @@ public class Solution
         //var result = new RemoveDuplicatesSortedArray();
         //var num = result.RemoveDuplicates(SortesArray);
 
-        int[] nums = { 0, 1, 1, 1, 2, 3, 1 };
-        var result = new RemoveElement();
+        //int[] nums = { 0, 1, 1, 1, 2, 3, 1 };
+        //var result = new RemoveElement();
+        //---------------------------------------
+        LinkedList l1 = new LinkedList();
+        //l1.Add(new Node("1"));  
+        l1.Add(new Node("2"));
+        l1.Add(new Node("3"));
+        l1.Add(new Node("4"));
+        l1.Add(new Node("5"));
+        l1.Add(new Node("8"));
+        l1.Add(new Node("100"));
+        l1.Add(new Node("120"));
 
-        int k = result.FindAndRemove(nums, 1);
+
+        LinkedList l2 = new LinkedList();
+        l2.Add(new Node("10"));
+        l2.Add(new Node("30"));
+        l2.Add(new Node("34"));
+        LinkedList list = new LinkedList();
+        list.MergeSortedList(l1.Head, l2.Head);
+        //list.PrintNodes();
+        Console.ReadLine();
+
+
 
         //Console.WriteLine("Hello, World!");
     }
