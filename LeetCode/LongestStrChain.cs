@@ -35,4 +35,8 @@ namespace LeetCode
             return maxLen;
         }
     }
+
+    //string[] words = { "a", "b", "ba", "bca", "bda", "bdca" };
+    //var res = new LongestStrChain();
+    //var output = res.LongestStrChainFind(words);
 }
