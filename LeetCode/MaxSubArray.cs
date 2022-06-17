@@ -28,4 +28,9 @@ namespace LeetCode
 			return maxSum;
 		}
 	}
+
+	//int[] nums = { 5, 4, -1, 7, 8 };
+
+	//var search = new MaxSubArray();
+	//var res = search.MaxSubArrayFind(nums);
 }
