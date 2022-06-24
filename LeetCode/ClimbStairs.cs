@@ -24,4 +24,8 @@ namespace LeetCode
             return res[n];
         }
     }
+
+    //int input = 6;
+    //var res = new ClimbStairs();
+    //var output = res.ClimbStairsFind(input);
 }
