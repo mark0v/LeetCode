@@ -10,4 +10,5 @@ class Solution:
         print(True if a == b else False)
 
 
-check_palindrome = Solution().isPalindrome(x)
+result = Solution()
+result.isPalindrome(x)
